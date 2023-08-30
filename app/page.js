@@ -11,7 +11,7 @@ export default function Home() {
   const router = useRouter()
 
   async function handleRetrieval(){
-    const res = await fetch("http://127.0.0.1:5000/url", {
+    const res = await fetch("https://yt-dl-server-yg8o.onrender.com/url", {
       method: "POST",
       mode: "cors",
       headers:{

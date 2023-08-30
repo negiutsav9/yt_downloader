@@ -24,7 +24,7 @@ export default function Video(){
     async function handleDownload(itag) {
         setMessage("Your video is being downloaded")
         setLoading(true)
-        const res = await fetch("http://127.0.0.1:5000/download", {
+        const res = await fetch("https://yt-dl-server-yg8o.onrender.com/download", {
             method: "POST",
             mode: "cors",
             headers:{
@@ -61,7 +61,7 @@ export default function Video(){
         // declare the async data fetching function
         const fetchData = async () => {
             // get the data from the api
-            const response = await fetch('http://localhost:5000/data',{
+            const response = await fetch('https://yt-dl-server-yg8o.onrender.com/data',{
                 method:'get',
                 credentials:"include",
                 headers:{
