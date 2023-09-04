@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useRouter } from 'next/navigation'
 
 
@@ -69,7 +69,7 @@ export default function Home() {
             YouTube Downloader
           </div>
           <div className="p-8 text-xl md:text-2xl">
-            "Server is starting..."
+            Server is starting...
           </div>
         </div>   
       </main>
