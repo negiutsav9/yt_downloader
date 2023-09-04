@@ -98,7 +98,7 @@ export default function Video(){
                     <div id='Header' className="w-full font-title text-3xl md:text-5xl h-fit text-center">
                         YouTube Downloader
                     </div>
-                    <div className="p-8 text-2xl md:text-4xl">
+                    <div className="p-8 text-xl md:text-2xl">
                         {message}
                     </div>
                 </div>   
