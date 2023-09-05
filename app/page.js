@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useRouter } from 'next/navigation'
+import Link from "next/link"
 
 
 export default function Home() {
@@ -71,6 +72,10 @@ export default function Home() {
           <div className="p-8 text-xl md:text-2xl">
             Server is starting...
           </div>
+          <div className='flex justify-center items-center bottom-0 text-xl md:text-2xl p-10'>
+              Developed by 
+            <Link target='_blank' href='https://personal-website-v2-pi.vercel.app/' className="font-sign text-4xl md:text-[50px] lg:text-5xl ml-3">Un</Link>
+          </div>
         </div>   
       </main>
     )
@@ -82,10 +87,10 @@ export default function Home() {
               YouTube Downloader
            </div>
            <div id='Content' className="flex items-center justify-center flex-col my-auto md:mx-2 ">
-              <div id='About' className="sm-landscape:hidden lg:block md:w-2/3 lg:w-1/2 px-5 py-4 text-xl md:text-3xl h-fit text-center">
+              <div id='About' className="sm-landscape:hidden lg:block md:w-2/3 lg:w-1/2 px-5 py-4 text-xl md:text-2xl xl:text-3xl h-fit text-center">
                 A Next.js application for downloading YouTube videos for free without any advertisements and YouTube Premium.
               </div>
-              <div id='Error Messages' className="text-red-500 mt-16 lg:mt-32 text-lg">
+              <div id='Error Messages' className="text-red-500 mt-16 lg:mt-12 text-lg">
                 {message}
               </div>
               <input type="text" placeholder="Enter the link" onChange={(e) => setUrl(e.target.value)} className=" text-gray-900 my-8 lg:my-8 rounded-lg text-md md:text-lg block w-4/5 md:w-2/3 lg:w-2/5 p-3.5 placeholder-gray-400 bg-gray-300 border border-gray-300"/>
@@ -93,6 +98,10 @@ export default function Home() {
                   Retrieve the Video
               </button>
            </div>
+           <div className='flex justify-center items-center bottom-0 text-xl md:text-2xl p-10'>
+              Developed by 
+              <Link target='_blank' href='https://personal-website-v2-pi.vercel.app/' className="font-sign text-4xl md:text-[50px] lg:text-5xl ml-3">Un</Link>
+            </div>
         </div>
       </main>
     )

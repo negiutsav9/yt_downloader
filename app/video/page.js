@@ -179,6 +179,10 @@ export default function Video(){
                         </div>
 
                     </div>
+                    <div className='flex justify-center items-center bottom-0 text-xl lg:text-2xl p-10'>
+                        Developed by 
+                        <Link target="_blank" href='https://personal-website-v2-pi.vercel.app/' className="font-sign text-4xl md:text-[50px] lg:text-5xl ml-3">Un</Link>
+                        </div>
                 </div>
             </main>
         )
