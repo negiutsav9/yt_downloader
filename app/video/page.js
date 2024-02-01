@@ -113,7 +113,7 @@ export default function Video(){
                             YouTube Downloader
                         </Link>
                     </div>
-                    <div id='Content' className="my-5 lg:my-12 h-fit w-full px-3 lg:px-auto">
+                    <div id='Content' className="my-5 lg:my-12 h-fit w-full lg:w-[80%] px-3 lg:px-auto">
                         <div id='Header' className="text-2xl md:text-4xl py-3 px-3 lg:px-auto">
                             {title}
                         </div>
