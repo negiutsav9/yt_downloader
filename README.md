@@ -1,7 +1,7 @@
 # YouTube Downloader
 <em>A Next.js application which can download YouTube videos without advertisements and YouTube Premium</em>
 
-[Run the YouTube Downloader](https://yt-dl-frontend.vercel.app/){: .btn}
+[Run the YouTube Downloader](https://yt-dl-frontend.vercel.app/)
 
 ## Idea
 I usually download YouTube videos and audio streams to enjoy music offline and without annoying advertisements. Furthermore, paying a regular subscription fee for a plan that works only on one device is not really well valued as I use more than one device. I explored many other YouTube downloaders such as SaveFrom and Online Video Downloader; however, one of the major drawbacks of these sites are the pop-up advertisements and illegitimate download buttons. I can understand that these sites uses advertisements to compensate the cost incurred during development and deployment, but these advertisements can be potentially mallicious and affect the performance of the device. Through this downloader, I want to offer a simple and minimalistic experience to the users without any annoying advertisements and additional subscriptions.
