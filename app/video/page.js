@@ -106,14 +106,14 @@ export default function Video(){
         )
     } else {
         return(
-            <main className="bg-zinc-900 h-full w-full p-2 lg:px-32">
-                <div id='Section_1' className='text-white w-full h-full'>
+            <main className="flex flex-col bg-zinc-900 h-full w-full p-2 lg:px-32 justify-center items-center">
+                <div id='Section_1' className='flex flex-col text-white w-full h-full justify-center items-center'>
                     <div id='Header' className="w-full font-title px-5 py-4 text-3xl md:text-5xl h-fit text-center">
                         <Link href='/'>
                             YouTube Downloader
                         </Link>
                     </div>
-                    <div id='Content' className="my-5 lg:my-12 h-fit w-full lg:w-[80%] px-3 lg:px-auto">
+                    <div id='Content' className="my-5 lg:my-12 h-fit w-full landscape:lg:w-[85%] px-3 lg:px-auto">
                         <div id='Header' className="text-2xl md:text-4xl py-3 px-3 lg:px-auto">
                             {title}
                         </div>
